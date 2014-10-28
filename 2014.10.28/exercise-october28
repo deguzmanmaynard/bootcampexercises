@@ -1,0 +1,9 @@
+
+ls lib/hairy_dangerzone > outputs/hairy_dangerzone_contents.txt
+
+grep -r airy . > outputs/airy.txt
+
+env grep E -r > outputs/e.txt
+wc -l outputs/e.txt
+
+head -n17 lib/hairy_dangerzone.rb | tail -n10 > outputs/hairy_dz_11_17.txt
